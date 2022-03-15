@@ -19,4 +19,8 @@ function multi(){
 }
 function divi(){
     resultado.innerHTML = parseInt(num1.value) / parseFloat(num2.value)
+    document.getElementById('hUm').innerHTML = "Monster Hunter World - Fatalis"
+    document.getElementById('hunter').innerHTML = "Fatalis apareceu nas ruínas do Castelo Schrade. Reúna uma equipe e parta no serviço especial 'O Dragão Sombrio' para encarar esse inimigo lendário!"
+    document.getElementById("hunterimg").src="./img/fatalis.jpg"
+
 }
